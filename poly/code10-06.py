@@ -10,7 +10,7 @@ def myFuc() :
 # 메인 코드 부분
 window = Tk()
 
-photo = PhotoImage(file = "gif/dog2.gif")
+photo = PhotoImage(file ="../GIF/dog2.gif")
 button1 = Button(window, image = photo, command = myFuc)
 
 button1.pack()
